@@ -1,0 +1,250 @@
+2024/10/07 08:41:39| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 08:41:39| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 08:41:39| Created PID file (/run/squid.pid)
+2024/10/07 08:41:39 kid1| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 08:41:39 kid1| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 08:41:39 kid1| Current Directory is /home/VortexIP
+2024/10/07 08:41:39 kid1| Creating missing swap directories
+2024/10/07 08:41:39 kid1| /var/spool/squid exists
+2024/10/07 08:41:39 kid1| Making directories in /var/spool/squid/00
+2024/10/07 08:41:39 kid1| Making directories in /var/spool/squid/01
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/02
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/03
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/04
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/05
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/06
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/07
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/08
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/09
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/0A
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/0B
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/0C
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/0D
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/0E
+2024/10/07 08:41:40 kid1| Making directories in /var/spool/squid/0F
+2024/10/07 08:41:40| Removing PID file (/run/squid.pid)
+2024/10/07 08:42:14| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 08:42:14| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 08:42:14| Created PID file (/run/squid.pid)
+2024/10/07 08:42:14 kid1| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 08:42:14 kid1| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 08:42:14 kid1| Current Directory is /
+2024/10/07 08:42:14 kid1| Creating missing swap directories
+2024/10/07 08:42:14 kid1| /var/spool/squid exists
+2024/10/07 08:42:14 kid1| /var/spool/squid/00 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/00
+2024/10/07 08:42:14 kid1| /var/spool/squid/01 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/01
+2024/10/07 08:42:14 kid1| /var/spool/squid/02 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/02
+2024/10/07 08:42:14 kid1| /var/spool/squid/03 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/03
+2024/10/07 08:42:14 kid1| /var/spool/squid/04 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/04
+2024/10/07 08:42:14 kid1| /var/spool/squid/05 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/05
+2024/10/07 08:42:14 kid1| /var/spool/squid/06 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/06
+2024/10/07 08:42:14 kid1| /var/spool/squid/07 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/07
+2024/10/07 08:42:14 kid1| /var/spool/squid/08 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/08
+2024/10/07 08:42:14 kid1| /var/spool/squid/09 exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/09
+2024/10/07 08:42:14 kid1| /var/spool/squid/0A exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/0A
+2024/10/07 08:42:14 kid1| /var/spool/squid/0B exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/0B
+2024/10/07 08:42:14 kid1| /var/spool/squid/0C exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/0C
+2024/10/07 08:42:14 kid1| /var/spool/squid/0D exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/0D
+2024/10/07 08:42:14 kid1| /var/spool/squid/0E exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/0E
+2024/10/07 08:42:14 kid1| /var/spool/squid/0F exists
+2024/10/07 08:42:14 kid1| Making directories in /var/spool/squid/0F
+2024/10/07 08:42:14| Removing PID file (/run/squid.pid)
+2024/10/07 08:42:14| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 08:42:14| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 08:42:14| Created PID file (/run/squid.pid)
+2024/10/07 08:42:14 kid1| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 08:42:14 kid1| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 08:42:14 kid1| Current Directory is /
+2024/10/07 08:42:14 kid1| Starting Squid Cache version 6.6 for x86_64-pc-linux-gnu...
+2024/10/07 08:42:14 kid1| Service Name: squid
+2024/10/07 08:42:14 kid1| Process ID 489082
+2024/10/07 08:42:14 kid1| Process Roles: worker
+2024/10/07 08:42:14 kid1| With 1024 file descriptors available
+2024/10/07 08:42:14 kid1| Initializing IP Cache...
+2024/10/07 08:42:14 kid1| DNS IPv6 socket created at [::], FD 8
+2024/10/07 08:42:14 kid1| DNS IPv4 socket created at 0.0.0.0, FD 9
+2024/10/07 08:42:14 kid1| Adding nameserver 8.8.8.8 from squid.conf
+2024/10/07 08:42:14 kid1| Adding nameserver 8.8.4.4 from squid.conf
+2024/10/07 08:42:14 kid1| Logfile: opening log /home/VortexIP/squid/log/access.log
+2024/10/07 08:42:14 kid1| WARNING: log name now starts with a module name. Use 'stdio:/home/VortexIP/squid/log/access.log'
+2024/10/07 08:42:14 kid1| Unlinkd pipe opened on FD 14
+2024/10/07 08:42:14 kid1| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2024/10/07 08:42:14 kid1| Store logging disabled
+2024/10/07 08:42:14 kid1| Swap maxSize 102400 + 262144 KB, estimated 28041 objects
+2024/10/07 08:42:14 kid1| Target number of buckets: 1402
+2024/10/07 08:42:14 kid1| Using 8192 Store buckets
+2024/10/07 08:42:14 kid1| Max Mem  size: 262144 KB
+2024/10/07 08:42:14 kid1| Max Swap size: 102400 KB
+2024/10/07 08:42:14 kid1| Rebuilding storage in /var/spool/squid (no log)
+2024/10/07 08:42:14 kid1| Using Least Load store dir selection
+2024/10/07 08:42:14 kid1| Current Directory is /
+2024/10/07 08:42:14 kid1| Finished loading MIME types and icons.
+2024/10/07 08:42:14 kid1| HTCP Disabled.
+2024/10/07 08:42:14 kid1| Pinger socket opened on FD 18
+2024/10/07 08:42:14 kid1| Squid plugin modules loaded: 0
+2024/10/07 08:42:14 kid1| Adaptation support is off.
+2024/10/07 08:42:14 kid1| Accepting HTTP Socket connections at conn3 local=[::]:3128 remote=[::] FD 16 flags=9
+    listening port: 3128
+2024/10/07 08:42:15 pinger| Initialising ICMP pinger ...
+2024/10/07 08:42:15 pinger| ICMP socket opened.
+2024/10/07 08:42:15 pinger| ICMPv6 socket opened
+2024/10/07 08:42:15 kid1| Done scanning /var/spool/squid dir (0 entries)
+2024/10/07 08:42:15 kid1| Finished rebuilding storage from disk.
+          0 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+          0 Objects loaded
+          0 Objects expired
+          0 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.23 seconds (0.00 objects/sec).
+2024/10/07 08:42:15 kid1| Beginning Validation Procedure
+2024/10/07 08:42:15 kid1| Completed Validation Procedure
+    Validated 0 Entries
+    store_swap_size = 0.00 KB
+2024/10/07 08:42:15 kid1| storeLateRelease: released 0 objects
+2024/10/07 08:44:27 pinger| SendEcho ERROR: sending to ICMPv6 packet to [2a00:1450:4009:818::200e]: (1) Operation not permitted
+2024/10/07 09:52:09 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2024/10/07 09:52:09 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2024/10/07 09:52:09 kid1| NETDB state saved; 0 entries, 1 msec
+2024/10/07 10:37:08 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2024/10/07 10:37:08 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2024/10/07 10:37:08 kid1| NETDB state saved; 0 entries, 1 msec
+2024/10/07 11:46:44 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2024/10/07 11:46:44 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2024/10/07 11:46:44 kid1| NETDB state saved; 0 entries, 1 msec
+2024/10/07 12:01:42 kid1| Preparing for shutdown after 1 requests
+2024/10/07 12:01:42 kid1| Waiting 30 seconds for active connections to finish
+2024/10/07 12:01:42 kid1| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2024/10/07 12:01:42 kid1| Closing Pinger socket on FD 18
+2024/10/07 12:01:47 pinger| Pinger exiting.
+2024/10/07 12:02:13 kid1| Shutdown: Negotiate authentication.
+2024/10/07 12:02:13 kid1| Shutdown: Digest authentication.
+2024/10/07 12:02:13 kid1| Shutdown: Basic authentication.
+2024/10/07 12:02:14 kid1| Shutting down...
+2024/10/07 12:02:14 kid1| Closing unlinkd pipe on FD 14
+2024/10/07 12:02:14 kid1| storeDirWriteCleanLogs: Starting...
+2024/10/07 12:02:14 kid1|   Finished.  Wrote 1 entries.
+2024/10/07 12:02:14 kid1|   Took 0.00 seconds (494.80 entries/sec).
+CPU Usage: 2.773 seconds = 1.791 user + 0.982 sys
+Maximum Resident Size: 100208 KB
+Page faults with physical i/o: 0
+2024/10/07 12:02:14 kid1| Logfile: closing log stdio:/home/VortexIP/squid/log/access.log
+2024/10/07 12:02:14 kid1| Squid Cache (Version 6.6): Exiting normally.
+2024/10/07 12:02:25| Removing PID file (/run/squid.pid)
+2024/10/07 12:02:25| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 12:02:25| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 12:02:25| Created PID file (/run/squid.pid)
+2024/10/07 12:02:25 kid1| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 12:02:25 kid1| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 12:02:25 kid1| Current Directory is /
+2024/10/07 12:02:25 kid1| Creating missing swap directories
+2024/10/07 12:02:25 kid1| /var/spool/squid exists
+2024/10/07 12:02:25 kid1| /var/spool/squid/00 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/00
+2024/10/07 12:02:25 kid1| /var/spool/squid/01 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/01
+2024/10/07 12:02:25 kid1| /var/spool/squid/02 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/02
+2024/10/07 12:02:25 kid1| /var/spool/squid/03 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/03
+2024/10/07 12:02:25 kid1| /var/spool/squid/04 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/04
+2024/10/07 12:02:25 kid1| /var/spool/squid/05 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/05
+2024/10/07 12:02:25 kid1| /var/spool/squid/06 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/06
+2024/10/07 12:02:25 kid1| /var/spool/squid/07 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/07
+2024/10/07 12:02:25 kid1| /var/spool/squid/08 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/08
+2024/10/07 12:02:25 kid1| /var/spool/squid/09 exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/09
+2024/10/07 12:02:25 kid1| /var/spool/squid/0A exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/0A
+2024/10/07 12:02:25 kid1| /var/spool/squid/0B exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/0B
+2024/10/07 12:02:25 kid1| /var/spool/squid/0C exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/0C
+2024/10/07 12:02:25 kid1| /var/spool/squid/0D exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/0D
+2024/10/07 12:02:25 kid1| /var/spool/squid/0E exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/0E
+2024/10/07 12:02:25 kid1| /var/spool/squid/0F exists
+2024/10/07 12:02:25 kid1| Making directories in /var/spool/squid/0F
+2024/10/07 12:02:25| Removing PID file (/run/squid.pid)
+2024/10/07 12:02:25| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 12:02:25| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 12:02:25| Created PID file (/run/squid.pid)
+2024/10/07 12:02:25 kid1| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2024/10/07 12:02:25 kid1| Processing Configuration File: /home/VortexIP/users/default.conf (depth 1)
+2024/10/07 12:02:25 kid1| Current Directory is /
+2024/10/07 12:02:25 kid1| Starting Squid Cache version 6.6 for x86_64-pc-linux-gnu...
+2024/10/07 12:02:25 kid1| Service Name: squid
+2024/10/07 12:02:25 kid1| Process ID 492376
+2024/10/07 12:02:25 kid1| Process Roles: worker
+2024/10/07 12:02:25 kid1| With 1024 file descriptors available
+2024/10/07 12:02:25 kid1| Initializing IP Cache...
+2024/10/07 12:02:25 kid1| DNS IPv6 socket created at [::], FD 8
+2024/10/07 12:02:25 kid1| DNS IPv4 socket created at 0.0.0.0, FD 9
+2024/10/07 12:02:25 kid1| Adding nameserver 8.8.8.8 from squid.conf
+2024/10/07 12:02:25 kid1| Adding nameserver 8.8.4.4 from squid.conf
+2024/10/07 12:02:25 kid1| Logfile: opening log /home/VortexIP/squid/log/access.log
+2024/10/07 12:02:25 kid1| WARNING: log name now starts with a module name. Use 'stdio:/home/VortexIP/squid/log/access.log'
+2024/10/07 12:02:25 kid1| Unlinkd pipe opened on FD 14
+2024/10/07 12:02:25 kid1| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2024/10/07 12:02:25 kid1| Store logging disabled
+2024/10/07 12:02:25 kid1| Swap maxSize 102400 + 262144 KB, estimated 28041 objects
+2024/10/07 12:02:25 kid1| Target number of buckets: 1402
+2024/10/07 12:02:25 kid1| Using 8192 Store buckets
+2024/10/07 12:02:25 kid1| Max Mem  size: 262144 KB
+2024/10/07 12:02:25 kid1| Max Swap size: 102400 KB
+2024/10/07 12:02:25 kid1| Rebuilding storage in /var/spool/squid (clean log)
+2024/10/07 12:02:25 kid1| Using Least Load store dir selection
+2024/10/07 12:02:25 kid1| Current Directory is /
+2024/10/07 12:02:25 kid1| Finished loading MIME types and icons.
+2024/10/07 12:02:25 kid1| HTCP Disabled.
+2024/10/07 12:02:25 kid1| Pinger socket opened on FD 19
+2024/10/07 12:02:25 kid1| Squid plugin modules loaded: 0
+2024/10/07 12:02:25 kid1| Adaptation support is off.
+2024/10/07 12:02:25 kid1| Accepting HTTP Socket connections at conn3 local=[::]:3128 remote=[::] FD 17 flags=9
+    listening port: 3128
+2024/10/07 12:02:25 kid1| Done reading /var/spool/squid swaplog (1 entries)
+2024/10/07 12:02:25 kid1| Finished rebuilding storage from disk.
+          1 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+          1 Objects loaded
+          0 Objects expired
+          0 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.02 seconds (44.83 objects/sec).
+2024/10/07 12:02:25 kid1| Beginning Validation Procedure
+2024/10/07 12:02:25 kid1| Completed Validation Procedure
+    Validated 1 Entries
+    store_swap_size = 4.00 KB
+2024/10/07 12:02:25 pinger| Initialising ICMP pinger ...
+2024/10/07 12:02:25 pinger| ICMP socket opened.
+2024/10/07 12:02:25 pinger| ICMPv6 socket opened
+2024/10/07 12:02:26 kid1| storeLateRelease: released 0 objects
+2024/10/07 13:02:08 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2024/10/07 13:02:08 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2024/10/07 13:02:08 kid1| NETDB state saved; 0 entries, 1 msec
