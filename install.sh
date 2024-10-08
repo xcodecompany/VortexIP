@@ -46,21 +46,28 @@ function kur {
     sudo systemctl start nginx
     sudo systemctl enable nginx
 
-    # Nginx web kök dizinini VortexIP dizinine yönlendirme
-    sudo rm -rf /var/www/html
-    sudo ln -s $VORTEX_HOME/web /var/www/html
-
     # PHP ve gerekli modüllerin kurulumu
-    sudo apt install php-fpm php-mysql php-cli php-curl php-json php-common php-mbstring -y
+    sudo apt install php-fpm php-mysql -y
 
-    # MariaDB kurulumu
+    # Nginx için PHP-FPM yapılandırması
+    sudo sed -i 's/index index.html/index index.php index.html/' /etc/nginx/sites-available/default
+    sudo sed -i '/location \/ {/a\        try_files $uri $uri/ =404;' /etc/nginx/sites-available/default
+    sudo sed -i '/location ~ \\.php$ {/a\        include snippets/fastcgi-php.conf;\n        fastcgi_pass unix:/var/run/php/php-fpm.sock;\n        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;\n        include fastcgi_params;' /etc/nginx/sites-available/default
+    sudo systemctl restart nginx
+    sudo systemctl restart php-fpm
+
+    # MariaDB kurulumu ve root erişimi yapılandırması
     sudo apt install mariadb-server mariadb-client -y
     sudo systemctl start mariadb
     sudo systemctl enable mariadb
 
-    # PHPMyAdmin kurulumu ve yapılandırması
+    # MariaDB root için native_password ayarı (root erişimi phpMyAdmin üzerinden sağlanacak)
+    sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED VIA mysql_native_password USING PASSWORD('YourRootPassword');"
+    sudo mysql -e "FLUSH PRIVILEGES;"
+
+    # PHPMyAdmin kurulumu ve sembolik link oluşturma
     sudo apt install phpmyadmin -y
-    sudo ln -s /usr/share/phpmyadmin $VORTEX_HOME/web/phpmyadmin
+    sudo ln -s /usr/share/phpmyadmin /home/VortexIP/web/phpmyadmin
 
     # Squid proxy kurulumu
     sudo apt install squid -y
@@ -72,15 +79,12 @@ function kur {
     sudo systemctl enable haproxy
     sudo systemctl start haproxy
 
-    # SSH portunu her zaman açık tutacak UFW ayarları
-    sudo ufw allow OpenSSH
-    sudo ufw allow 'Nginx Full'
-    sudo ufw allow 3306  # MariaDB portu
-    sudo ufw allow 3128  # Squid default port
+    # UFW kurulumu ve ayarları (MariaDB dışarıya açılmadı, sadece local)
+    sudo apt install ufw -y
+    sudo ufw allow OpenSSH   # SSH (22)
+    sudo ufw allow 'Nginx Full'  # HTTP (80) ve HTTPS (443)
+    sudo ufw allow 3128  # Squid default port (3128)
     sudo ufw enable
-
-    # MariaDB güvenliği ayarları
-    sudo mysql_secure_installation
 
     echo "Kurulum tamamlandı. Tüm servisler aktif."
 }
@@ -103,7 +107,7 @@ function kaldir {
     sudo systemctl disable haproxy
 
     # Paketleri kaldırma
-    sudo apt remove --purge nginx php-fpm php-mysql php-cli php-curl php-json php-common php-mbstring mariadb-server mariadb-client phpmyadmin squid haproxy -y
+    sudo apt remove --purge nginx php-fpm php-mysql mariadb-server mariadb-client phpmyadmin squid haproxy -y
 
     # Kalan yapılandırma dosyalarını temizleme
     sudo apt autoremove -y
