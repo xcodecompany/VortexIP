@@ -13,11 +13,16 @@ if ($_SESSION['role'] === 'admin') {
     exit();
 }
 
-// Kullanıcı bilgilerini çek
+// Kullanıcı bilgilerini ve proxy bilgilerini çek
 $username = $_SESSION['user'];
 $sql = "SELECT * FROM users WHERE username='$username'";
 $result = $conn->query($sql);
 $user = $result->fetch_assoc();
+
+// Kullanıcıya atanmış proxyleri çek
+$user_id = $user['id'];
+$sql = "SELECT * FROM proxies WHERE user_id='$user_id'";
+$proxy_result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>
@@ -65,7 +70,31 @@ $user = $result->fetch_assoc();
             <div class="container-fluid">
                 <h1>Kullanıcı Paneli</h1>
                 <p>Hoş geldiniz, <?php echo $user['username']; ?>!</p>
-                <p>Bu panelde sadece kendi bilgilerinizi görebilirsiniz.</p>
+                <h2>Atanmış Proxyler</h2>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>IPv4 Proxy</th>
+                        <th>Port</th>
+                        <th>Oluşturulma Tarihi</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    if ($proxy_result->num_rows > 0) {
+                        while ($proxy = $proxy_result->fetch_assoc()) {
+                            echo "<tr>";
+                            echo "<td>" . $proxy['ipv4_proxy'] . "</td>";
+                            echo "<td>" . $proxy['port'] . "</td>";
+                            echo "<td>" . $proxy['created_at'] . "</td>";
+                            echo "</tr>";
+                        }
+                    } else {
+                        echo "<tr><td colspan='3'>Henüz proxy atanmadı.</td></tr>";
+                    }
+                    ?>
+                    </tbody>
+                </table>
             </div>
         </section>
     </div>
