@@ -7,6 +7,12 @@ if (!isset($_SESSION['user'])) {
     exit();
 }
 
+// Eğer kullanıcı admin değilse, kullanıcı paneline yönlendir
+if ($_SESSION['role'] !== 'admin') {
+    header("Location: user.php"); // Normal kullanıcılar user.php sayfasına yönlendirilir
+    exit();
+}
+
 // Kullanıcı ekleme işlemi
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['username'])) {
     $username = $_POST['username'];
@@ -33,14 +39,18 @@ $result = $conn->query($sql);
     <title>Admin Paneli</title>
     <link rel="stylesheet" href="/adminlte/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="/adminlte/plugins/fontawesome-free/css/all.min.css">
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
     <!-- Navbar -->
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto"> <!-- Navbar öğelerini sağa yaslamak için ml-auto ekledik -->
             <li class="nav-item d-none d-sm-inline-block">
                 <a href="admin.php" class="nav-link">Ana Sayfa</a>
+            </li>
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="logout.php" class="nav-link">Çıkış Yap</a> <!-- Logout butonu sağda olacak -->
             </li>
         </ul>
     </nav>
